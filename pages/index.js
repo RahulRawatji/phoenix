@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className='review'>
           <h3>Reviews</h3>
           <p>Ready for Adventure</p>
         </section>

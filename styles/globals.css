@@ -131,9 +131,13 @@ main{
   text-align: center;
   margin-top: 15px;
   flex-wrap: wrap;
-  height: 35vh;
 }
 
+/* review Style */
+
+.review{
+  height: 40vh;
+}
 
 /* Footer Style */
 
