@@ -52,7 +52,7 @@ export default function Home() {
           <div className='whyUs__content'>
             <div>
               <h3><MdOutlineSettingsSuggest size={20}/>Tailormade Adventures</h3>
-              <p  style={{ maxWidth: '40ch'}}>We specialize in tailoring each journey around our guest's specific interests or expectations. Our collection of perfect moments are often exclusive to Trekmunk, ensuring a unique adventure.</p>
+              <p style={{ maxWidth: '40ch'}}>We specialize in tailoring each journey around our guest specific interests or expectations. Our collection of perfect moments are often exclusive to Trekmunk, ensuring a unique adventure.</p>
             </div>
             <div>
               <h3><GiSchoolBag size={20} />Finest Guides</h3>
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <div>
               <h3><RiHeartsLine/>Travel with Heart</h3>
-              <p style={{ maxWidth: '40ch'}}>Our core ethos of "Care of the Land and People" drives all that we do. When you travel with us you make a small contribution to the “Trek for a Cause” initiative which helps people and nature in the remote areas.</p>
+              <p style={{ maxWidth: '40ch'}}>Our core ethos of Care of the Land and People drives all that we do. When you travel with us you make a small contribution to the “Trek for a Cause” initiative which helps people and nature in the remote areas.</p>
             </div>
           </div>
         </section>
