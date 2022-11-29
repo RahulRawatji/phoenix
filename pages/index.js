@@ -7,7 +7,6 @@ import {RiHeartsLine} from 'react-icons/ri';
 
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
-import imgHead from '../assets/dar1.jpg';
 import Card from '../components/Card';
 
 export default function Home() {
