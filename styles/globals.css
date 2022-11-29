@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,p{
   margin: 0;
   padding: 0;
 }
@@ -63,29 +63,16 @@ main{
 }
 
 .main-content{
-  background-color: hsla(188, 76%, 79%, 0.592);
   height: 80vh;
   width: 90vw;
   margin: 1.5em auto;
-  display: grid; 
-  grid-template-columns: 50% 50%;
-  letter-spacing: 2px;
   border-radius: 20px;
-}
-.main-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 5% 10%;
-}
-
-@media (max-width:450px){
-  .main-content{
-    display: flex;
-    flex-direction: column;
-  }    
-
+  background-image: url('../assets/dar2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: min(25px,2rem);
+  color: hsla(197, 12%, 89%, 0.873);
 }
 
 /* Card Style */
@@ -113,6 +100,10 @@ main{
   flex-wrap: wrap;
 }
 
+.card__content{
+  margin-top: 10px;
+}
+
 /* Why Us Styles */
 
 .whyUs__section{
@@ -131,12 +122,14 @@ main{
   text-align: center;
   margin-top: 15px;
   flex-wrap: wrap;
+  gap:2rem
 }
 
 /* review Style */
 
 .review{
   height: 40vh;
+  margin-top: 50px;
 }
 
 /* Footer Style */

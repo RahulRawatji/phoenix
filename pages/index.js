@@ -7,7 +7,7 @@ import {RiHeartsLine} from 'react-icons/ri';
 
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
-import imgHead from '../assets/muk1.jpg';
+import imgHead from '../assets/dar1.jpg';
 import Card from '../components/Card';
 
 export default function Home() {
@@ -21,17 +21,7 @@ export default function Home() {
       <Navbar />
       <main>
         <section className='main-content'>
-          <div className='main-img'>
-            <Image src={imgHead}
-              sizes="10vw"
-              alt="The moutain"
-              placeholder='blur'
-              fill={true}
-              style={{ borderRadius: '10px', opacity: '0.8' }} />
-          </div>
-          <div>
-            <h1>Your next Adveture is just one Click ahead</h1>
-          </div>
+            <h1 style={{textAlign:'center', paddingTop:'30px'}}>The Pahadi Company.</h1>
         </section>
 
         <section className='card__section'>
