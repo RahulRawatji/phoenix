@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 
-import cardImg from '../assets/muk1.jpg';
+import cardImg from '../assets/dar2.jpg';
 
 const Card = () => {
   return (
