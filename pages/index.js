@@ -24,7 +24,7 @@ export default function Home() {
               <h1 style={{textAlign:'center', paddingTop:'30px'}}>The Pahadi Company.</h1>
             </div>
             <div className='right-col'>
-              <Image src={require('../public/assets/potraitMain.jpg')} height={500} width={500}/>
+              <Image src={require('../public/assets/potraitMain.jpg')} className="img"/>
             </div>
         </section>
 
