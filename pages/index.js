@@ -21,7 +21,9 @@ export default function Home() {
       <main>
         <section className='main-content'>
             <div className='left-col'>
-              <h1 style={{textAlign:'center', paddingTop:'30px'}}>The Pahadi Company.</h1>
+              <h1 style={{textAlign:'center', paddingTop:'30px', fontSize:'2.5rem'}}>The Pahadi Company.</h1>
+              <h3 style={{fontSize: '1.5rem',textAlign:'center'}}>PLAN YOUR HOLIDAY WITH PAHADI COMPANY ?</h3>
+             <p style={{fontSize: '1rem',textAlign:'center'}}>Committed to helping its clients reach their goals.</p>
             </div>
             <div className='right-col'>
               <Image src={require('../public/assets/potraitMain.jpg')} className="img"/>
