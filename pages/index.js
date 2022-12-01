@@ -20,7 +20,12 @@ export default function Home() {
       <Navbar />
       <main>
         <section className='main-content'>
-            <h1 style={{textAlign:'center', paddingTop:'30px'}}>The Pahadi Company.</h1>
+            <div className='left-col'>
+              <h1 style={{textAlign:'center', paddingTop:'30px'}}>The Pahadi Company.</h1>
+            </div>
+            <div className='right-col'>
+              <Image src={require('../public/assets/potraitMain.jpg')} height={500} width={500}/>
+            </div>
         </section>
 
         <section className='card__section'>
