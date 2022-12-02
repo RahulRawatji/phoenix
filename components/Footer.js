@@ -1,6 +1,7 @@
 import React from 'react'
 import { SlSocialInstagram, SlSocialSpotify, SlSocialYoutube } from "react-icons/sl";
 import { TiSocialTwitter, TiSocialFacebook } from "react-icons/ti";
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
         </div>
         <div >
             <ul className='footer_list'>
-                <li className='footer_list_item'>About Us</li>
+               <Link href={'/aboutUs'}><li className='footer_list_item'>About Us</li></Link>
                 <li className='footer_list_item'>Contact Us</li>
                 <li className='footer_list_item'>FAQs</li>
             </ul>

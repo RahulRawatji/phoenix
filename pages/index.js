@@ -28,6 +28,7 @@ export default function Home() {
             <div className='right-col'>
               <Image src={require('../public/assets/potraitMain.jpg')} className="img"/>
             </div>
+            
         </section>
 
         <section className='card__section'>

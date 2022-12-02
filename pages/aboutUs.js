@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Image from 'next/image';
 
 const aboutUs = () => {
   return (
@@ -14,7 +14,7 @@ const aboutUs = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
-      <main className='about__us'>
+      <motion.main className='about__us' initial={{ x: 900 }} animate={{ x: 0 }}  transition={{ ease: "easeIn", duration: 1.3 }}>
         <div className='about_header'>
         </div>
         <div className='about_content'>
@@ -37,7 +37,7 @@ const aboutUs = () => {
             </div>
           </div>
         </div>
-      </main>
+      </motion.main>
       <Footer />
     </div>
   )
