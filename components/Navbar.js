@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
+
 import {GiMountains} from "react-icons/gi";
 
 const Navbar = () => {
@@ -6,9 +8,15 @@ const Navbar = () => {
     <nav className='navbar'>
        <GiMountains size={50}/> 
        <ul>
-            <a href="/"><li>Home</li></a>
-            <a href="/aboutUs"><li>About Us</li></a>
-            <a href=""><li>Blog</li></a>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/aboutUs">About Us</Link>
+          </li>
+          <li>
+            <Link href="/">Blog</Link>
+          </li>
        </ul>
     </nav>
   )
