@@ -54,7 +54,7 @@ h1,h2,h3,h4,p{
 .nav_list{
   position: absolute;
   right: -90%;
-  top: 80px;
+  top: 77px;
   width: 80vw;
   background-color: white;
   height: 100vh;
@@ -191,33 +191,6 @@ main{
   margin-top: 50px;
 }
 
-/* Footer Style */
-
-footer{
-  display: grid;
-  background-color:#edf6f9;
-  color: #343a40;
-  gap:0.5rem;
-  padding: 4%;
-}
-
-.social_icons{
-  display: flex;
-  gap: 1.5rem;
-  margin-left: 4%;
-}
-
-.footer_list{
-  display: flex;
-  gap:1rem;
-}
-
-.footer_list_item{
-  height: 30px;
-}
-.footer-text{
-  margin-left: 3%;
-}
 
 
 @media (min-width:480px){
