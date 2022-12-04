@@ -9,7 +9,7 @@ const Card = () => {
     <Link href="/treks">
     <div className='card'>
       <div className='card_img_container'>
-        <Image src={cardImg} className="card_img"/>
+        <Image src={cardImg} className="card_img" alt="sample img"/>
       </div>
       <div className='card__content'>
         <h3>Mukteshwar</h3> 

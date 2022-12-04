@@ -30,7 +30,7 @@ function treks(props) {
               Mukteshwar
             </h1>
             <p className='m-2'>
-              For nature lovers, Mukteshwar is a sight for sore eyes. Rich in natural beauty and enchanting scenic surroundings, it is a place that you wouldn't want to miss. The beautiful village is located at an altitude of 2171 metres and its magnificent vistas have won the hearts of tourist . Well connected, it is 51 kms away from the city of Nanital. The village derives its name from the popular Mukteshwar Temple which has Lord Shiva as the main deity. Its perfect location offers the perfect panoramic view of the mighty Nanda Devi and other mountains of the Himalayas. Its forest are rich in rare flora and fauna and you could hear the beautiful symphony of the forest birds in the morning.
+              For nature lovers, Mukteshwar is a sight for sore eyes. Rich in natural beauty and enchanting scenic surroundings, it is a place that you wouldnt want to miss. The beautiful village is located at an altitude of 2171 metres and its magnificent vistas have won the hearts of tourist . Well connected, it is 51 kms away from the city of Nanital. The village derives its name from the popular Mukteshwar Temple which has Lord Shiva as the main deity. Its perfect location offers the perfect panoramic view of the mighty Nanda Devi and other mountains of the Himalayas. Its forest are rich in rare flora and fauna and you could hear the beautiful symphony of the forest birds in the morning.
             </p>
             </div>
             <div className='left_inner_col'>
