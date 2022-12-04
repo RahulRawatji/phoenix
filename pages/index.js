@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import Footer from '../components/Footer';
 import {MdOutlineSettingsSuggest} from 'react-icons/md';
 import {GiSchoolBag} from 'react-icons/gi';
 import {RiHeartsLine} from 'react-icons/ri';
+import {motion} from 'framer-motion';
 
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -31,16 +32,16 @@ export default function Home() {
             
         </section>
 
-        <section className='card__section'>
+        <motion.section className='card__section'>
           <h3>Upcoming Treks</h3>
           <p>Ready for Adventure</p>
-          <div className='card__container'>
+          <motion.div className='card__container' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
             <Card />
             <Card />
             <Card />
             <Card />
-          </div>
-        </section>
+          </motion.div>
+        </motion.section>
 
         <section className='whyUs__section'>
           <div className='whyUs__header'>

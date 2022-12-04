@@ -14,7 +14,7 @@ const aboutUs = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
-      <motion.main className='about__us' initial={{ x: 900 }} animate={{ x: 0 }}  transition={{ ease: "easeIn", duration: 1.3 }}>
+      <motion.main className='about__us' initial={{ y: 900, opacity: 0 }} animate={{ y: 0 , opacity: 1}}  transition={{ ease: "easeIn", duration: 1.3 }}>
         <div className='about_header'>
         </div>
         <div className='about_content'>

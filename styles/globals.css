@@ -35,6 +35,10 @@ h1,h2,h3,h4,p{
   }
 }
 
+.m-2{
+  margin: 2%;
+}
+
 /* Navbar Styles */
 .navbar{
   display: flex;
