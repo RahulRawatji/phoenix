@@ -34,7 +34,7 @@
 .about_content_value_item{
     padding: 5%;
     background-color: #C4D7F2;
-    border-radius: 4%;
+    border-radius: 10px;
 }
 
 @media (max-width:480px){

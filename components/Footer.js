@@ -16,8 +16,8 @@ function Footer() {
         <div >
             <ul className='footer_list'>
                <Link href={'/aboutUs'}><li className='footer_list_item'>About Us</li></Link>
-                <li className='footer_list_item'>Contact Us</li>
-                <li className='footer_list_item'>FAQs</li>
+                <Link href='/contactUs'><li className='footer_list_item'>Contact Us</li></Link>
+                <Link href='/'><li className='footer_list_item'>FAQs</li></Link>
             </ul>
         </div>
         <div className='footer-text'>

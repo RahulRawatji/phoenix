@@ -11,6 +11,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: 50% 50%;
+    padding: 5%;
 }
 
 .left_inner_col{
@@ -19,6 +20,7 @@
     grid-template-columns: repeat(2,1fr);
     padding: 2%;
 }
+
 .left_col_header{
     display: flex;
     gap: 1rem;
